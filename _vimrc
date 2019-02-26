@@ -35,3 +35,21 @@ function MyDiff()
   endif
 endfunction
 
+"tab width
+set ts=4 "same to 'set tabstop=4'
+set shiftwidth=4
+
+"encoding and language
+set encoding=utf8 "set default encoding
+set langmenu=en-US
+
+"scheme
+colorscheme vrexify
+syntax on
+set number
+set smartindent
+set guifont=Consolas:h14
+
+"other
+set pythonthreedll=C:/ProgramData/Miniconda3/python37.dll "Python integrated
+set noundofile "do not generate undo file
